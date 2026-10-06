@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Demo</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      width: 200px;
+      margin: 20px;
+      border: 10px solid black;
+      padding: 20px;
+      padding-top: 40px;
+      background-color: lightblue;
+    }
+    .box p {
+      margin: 0;
+    }
+h1 {
+  color: blue;
+  text-align: left;
+  text-decoration: dashed;
+  text-size-adjust: calc(30);
+  page-orientation: upright;
+}
+
+div {
+  color: red
+}
+.keypoint {
+  font-size: 100px;
+text-align: right;
+}
+
+    
+  </style>
+</head>
+
+<body>
+  <h1><span class="keypoint">This is an &lt;h1&gt; </span> tag</h1>
+
+  <div class="box">
+    <p>This is a &lt;p&gt;, inside a &lt;div&gt; with the class of "box". <br>The box has content, padding, a border, and margin.</p>
+  </div>
+
+  <div>
+    <p>This is a &lt;p&gt;, inside a &lt;div&gt; with no class applied.</p>
+  </div>
+
+  <p>
+    This is a &lt;p&gt; in the &lt;body&gt; (no &lt;div&gt; and no class.)</p>
+<br><br><br><br>
+  <hr>
+  <h4>Key points</h4>
+  <ul>
+      <li>A styesheet is better than inline declarations</li>
+      <li>Order matters: top to bottom (last word wins), unless...</li>
+      <li>Specificity matters: universal, .class, #id, inline (<a href="./css-specificity-demo.html">demo here</a>)</li>
+      <li>Consider using the integrated browser in VS Code. (Right-click on the file name and choose "Open in integrated browser.")</li>
+      <li>Right-click in the browser to "Inspect element"</li>
+
+  </ul>
+
+</body>
+
+</html>
